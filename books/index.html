@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Books by Bishop Dr. Charles W. Dingle</title>
+<meta name="description" content="Every edition of the books by Bishop Dr. Charles W. Dingle, in English and Spanish, with links to where each one is sold.">
+<meta name="theme-color" content="#070f22">
+<link rel="canonical" href="https://bishopcdingle.github.io/books/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Books by Bishop Dr. Charles W. Dingle">
+<meta property="og:description" content="Man Is Soul and The Heart Intruder, in English and Spanish. Choose a book, then choose where to read it.">
+<meta property="og:url" content="https://bishopcdingle.github.io/books/">
+<meta property="og:image" content="https://bishopcdingle.github.io/books/covers/shelf.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy-950:#070f22; --navy-900:#0b1830; --navy-800:#10224a; --navy-700:#1a3466;
+  --gold:#d2ac5c; --gold-soft:#ebd9a3; --ivory:#f1ecdd; --mist:#b9c3d8;
+  --serif:"EB Garamond",Garamond,"Iowan Old Style",Georgia,serif;
+  --script:"Great Vibes","Snell Roundhand","Brush Script MT",cursive;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto} *{transition:none!important}}
+body{margin:0;background:radial-gradient(1200px 700px at 50% -8%,var(--navy-800),var(--navy-950) 62%) var(--navy-950);color:var(--ivory);font-family:var(--serif);font-size:1.15rem;line-height:1.55;min-height:100vh}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:min(100% - 2rem,58rem);margin-inline:auto}
+
+header{text-align:center;padding:clamp(2rem,7vw,4rem) 0 1rem}
+h1{margin:0;font-family:var(--script);font-weight:400;color:var(--gold-soft);font-size:clamp(2.8rem,10.5vw,4.4rem);line-height:1.1;letter-spacing:.005em;word-spacing:.2em;text-wrap:balance}
+.lead{margin:.9rem auto 0;max-width:34rem;color:var(--mist);font-size:1.1rem}
+.lead span{display:block}
+
+.shelf{list-style:none;margin:2rem 0 0;padding:0 0 1.1rem;display:flex;justify-content:center;align-items:flex-end;gap:clamp(.5rem,2.2vw,1.1rem);border-bottom:3px solid var(--gold)}
+.shelf li{flex:0 1 clamp(4.2rem,20vw,9.5rem)}
+.shelf li.pair-gap{margin-left:clamp(.6rem,3vw,1.6rem)}
+.shelf a{display:block;text-decoration:none;text-align:center;border-radius:4px}
+.shelf img{width:100%;height:auto;box-shadow:0 10px 22px rgba(0,0,0,.55);transition:transform .18s ease}
+.shelf a:hover img{transform:translateY(-6px)}
+.shelf span{display:block;margin-top:.55rem;font-size:.95rem;color:var(--mist)}
+.shelf a:focus-visible,.buy a:focus-visible{outline:3px solid var(--gold-soft);outline-offset:3px}
+
+main{padding:2.2rem 0 1rem}
+.edition{display:grid;grid-template-columns:minmax(6.5rem,30%) 1fr;grid-template-areas:"cover info" "cover buy";gap:1.1rem 1.6rem;align-items:start;padding:1.5rem;margin:0 0 1.4rem;border:1px solid rgba(210,172,92,.28);border-radius:14px;background:rgba(16,34,74,.55);scroll-margin-top:1rem}
+.edition:target{border-color:var(--gold);box-shadow:0 0 0 2px var(--gold);background:rgba(26,52,102,.7)}
+.cover{grid-area:cover;width:100%;height:auto;border-radius:3px;box-shadow:0 14px 28px rgba(0,0,0,.5)}
+.info{grid-area:info}
+.edition-label{margin:0 0 .25rem;color:var(--gold);font-size:1rem;font-style:italic}
+h2{margin:0;font-weight:600;font-size:clamp(1.45rem,5.2vw,2.1rem);line-height:1.15;color:var(--ivory)}
+.subtitle{margin:.3rem 0 0;color:var(--gold-soft);font-style:italic;font-size:1.1rem}
+.blurb{margin:.9rem 0 0;color:var(--mist);max-width:36rem}
+.buy{grid-area:buy;align-self:end;list-style:none;margin:.4rem 0 0;padding:0;display:grid;gap:.6rem;grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr))}
+.buy a{display:flex;justify-content:space-between;align-items:center;gap:.75rem;min-height:3.25rem;padding:.7rem 1rem;border:1.5px solid rgba(210,172,92,.7);border-radius:10px;text-decoration:none;font-weight:500;background:rgba(7,15,34,.35);transition:background-color .15s ease,color .15s ease}
+.buy a:hover{background:var(--gold);color:var(--navy-950);border-color:var(--gold)}
+.buy .fmt{font-size:1rem;color:var(--mist);font-weight:400;text-align:right}
+.buy a:hover .fmt{color:var(--navy-900)}
+
+footer{padding:1.5rem 0 3rem;text-align:center;color:var(--mist);font-size:1rem}
+footer p{margin:.2rem 0}
+
+@media (max-width:34rem){
+  .edition{grid-template-columns:34% 1fr;grid-template-areas:"cover info" "buy buy";padding:1.1rem;gap:1rem}
+  .buy{align-self:start;grid-template-columns:1fr}
+  .blurb{font-size:1.05rem}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Bishop Dr. Charles W. Dingle</h1>
+    <p class="lead"><span>Books in English and Spanish. Choose a book, then choose where to read it.</span><span lang="es">Libros en inglés y español. Elija un libro y luego dónde leerlo.</span></p>
+    <ul class="shelf" aria-label="Books">
+<li class=""><a href="#man-is-soul" aria-label="Man Is Soul; Soul Is Man, English"><img src="covers/man-is-soul.jpg" alt="" width="475" height="760"><span lang="en">English</span></a></li>
+<li class=""><a href="#el-hombre-es-alma" aria-label="El Hombre es Alma; El Alma es Hombre, Español"><img src="covers/el-hombre-es-alma.jpg" alt="" width="472" height="760"><span lang="es">Español</span></a></li>
+<li class="pair-gap"><a href="#heart-intruder" aria-label="The Heart Intruder, English"><img src="covers/heart-intruder.jpg" alt="" width="539" height="760"><span lang="en">English</span></a></li>
+<li class=""><a href="#el-intruso-del-corazon" aria-label="El Intruso del Corazón, Español"><img src="covers/el-intruso-del-corazon.jpg" alt="" width="541" height="760"><span lang="es">Español</span></a></li>
+    </ul>
+  </header>
+  <main>
+
+  <article class="edition" id="man-is-soul" lang="en" aria-labelledby="man-is-soul-h">
+    <img class="cover" src="covers/man-is-soul.jpg" alt="Cover of Man Is Soul; Soul Is Man" width="475" height="760" loading="lazy">
+    <div class="info">
+      <p class="edition-label">English edition</p>
+      <h2 id="man-is-soul-h">Man Is Soul; Soul Is Man</h2>
+      
+      <p class="blurb">A theological examination of what Scripture says about the soul, rooted in the Hebrew nephesh and the Greek psyche.</p>
+    </div>
+    <ul class="buy">
+<li><a href="https://www.amazon.com/dp/B0GY1X832G" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Hardcover</span></a></li>
+<li><a href="https://www.amazon.com/dp/B0H37JWGG7" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Kindle eBook</span></a></li>
+<li><a href="https://www.booksamillion.com/p/Man-Soul/Charles-W-Dingle/9798295796210" target="_blank" rel="noopener"><span class="store">Books-A-Million</span></a></li>
+<li><a href="https://books2read.com/u/31N1Rn" target="_blank" rel="noopener"><span class="store">More eBook stores</span></a></li>
+    </ul>
+  </article>
+  <article class="edition" id="el-hombre-es-alma" lang="es" aria-labelledby="el-hombre-es-alma-h">
+    <img class="cover" src="covers/el-hombre-es-alma.jpg" alt="Portada de El Hombre es Alma; El Alma es Hombre" width="472" height="760" loading="lazy">
+    <div class="info">
+      <p class="edition-label">Edición en español</p>
+      <h2 id="el-hombre-es-alma-h">El Hombre es Alma; El Alma es Hombre</h2>
+      
+      <p class="blurb">Un examen teológico de lo que dice la Escritura acerca del alma, basado en el hebreo nephesh y el griego psyche.</p>
+    </div>
+    <ul class="buy">
+<li><a href="https://www.amazon.com/dp/B0HK4FW4N5" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Tapa blanda</span></a></li>
+<li><a href="https://www.amazon.com/dp/B0H3CL7GR7" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Kindle</span></a></li>
+    </ul>
+  </article>
+  <article class="edition" id="heart-intruder" lang="en" aria-labelledby="heart-intruder-h">
+    <img class="cover" src="covers/heart-intruder.jpg" alt="Cover of The Heart Intruder" width="539" height="760" loading="lazy">
+    <div class="info">
+      <p class="edition-label">English edition</p>
+      <h2 id="heart-intruder-h">The Heart Intruder</h2>
+      <p class="subtitle">A Collection of Poetry, Second Edition</p>
+      <p class="blurb">Thirty poems spanning fifty-three years of ministry, each followed by the Bishop&#x27;s Reflections, personal and theological narratives written beneath the verse.</p>
+    </div>
+    <ul class="buy">
+<li><a href="https://www.amazon.com/dp/B0HFNQ2KJS" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Kindle eBook</span></a></li>
+<li><a href="https://www.walmart.com/ip/The-Heart-Intruder-A-Collection-of-Poetry-Second-Edition-Hardcover-9798256139322/20665810955" target="_blank" rel="noopener"><span class="store">Walmart</span><span class="fmt">Hardcover</span></a></li>
+<li><a href="https://books.google.com/books/about/The_Heart_Intruder.html?id=zcdV0gEACAAJ" target="_blank" rel="noopener"><span class="store">Google Books</span></a></li>
+<li><a href="https://books2read.com/u/bWnk8q" target="_blank" rel="noopener"><span class="store">More eBook stores</span></a></li>
+    </ul>
+  </article>
+  <article class="edition" id="el-intruso-del-corazon" lang="es" aria-labelledby="el-intruso-del-corazon-h">
+    <img class="cover" src="covers/el-intruso-del-corazon.jpg" alt="Portada de El Intruso del Corazón" width="541" height="760" loading="lazy">
+    <div class="info">
+      <p class="edition-label">Edición en español</p>
+      <h2 id="el-intruso-del-corazon-h">El Intruso del Corazón</h2>
+      <p class="subtitle">Una Colección de Poesía, Segunda Edición</p>
+      <p class="blurb">Treinta poemas que abarcan cincuenta y tres años de ministerio, cada uno seguido de las Reflexiones del Obispo, narrativas personales y teológicas escritas bajo el verso.</p>
+    </div>
+    <ul class="buy">
+<li><a href="https://www.amazon.com/dp/B0HFP3TYZ6" target="_blank" rel="noopener"><span class="store">Amazon</span><span class="fmt">Kindle</span></a></li>
+<li><a href="https://www.strandbooks.com/el-intruso-del-corazon-una-coleccion-de-poesia-segunda-edicion-9798256139803.html" target="_blank" rel="noopener"><span class="store">Strand</span><span class="fmt">Tapa blanda</span></a></li>
+<li><a href="https://www.casadellibro.com/ebook-el-intruso-del-corazon-una-coleccion-de-poesia-segunda-edicion-ebook/9798235614345/18336505" target="_blank" rel="noopener"><span class="store">Casa del Libro</span><span class="fmt">eBook</span></a></li>
+<li><a href="https://books2read.com/u/4j9zYD" target="_blank" rel="noopener"><span class="store">Más tiendas de eBooks</span></a></li>
+    </ul>
+  </article>
+  </main>
+  <footer>
+    <p>Each store sets its own price and availability.</p>
+    <p lang="es">Cada tienda fija su propio precio y disponibilidad.</p>
+  </footer>
+</div>
+</body>
+</html>
